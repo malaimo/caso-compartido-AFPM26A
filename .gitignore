@@ -1,0 +1,22 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Obsidian: estado de la ventana y caché (la configuración sí se versiona)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Claude: configuración local de cada máquina
+.claude/settings.local.json
+
+# Secretos: nunca al repo
+.env
+.env.*
+*.key
+*.pem
+
+# Temporales
+*.tmp
+*.log
+~$*
