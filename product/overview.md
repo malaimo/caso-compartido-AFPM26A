@@ -26,7 +26,15 @@ Dentro de la organización, el **usuario que conduce** son los Team Leads y mand
 Ordenadas por impacto × incertidumbre; la primera es la próxima a atacar.
 
 1. [product] [value] Los Team Leads comparten enlaces externos (Miro, Docs, Jira) en las reuniones grandes porque la colaboración nativa de Teams no cubre lo que necesitan hacer en vivo — no por hábito ni porque esos artefactos ya vivan afuera. Si Teams cubriera esa necesidad, dejarían de salir.
-2. [product] [value] El bajo uso de Whiteboard (5%) y notas (8%) se debe a que los Team Leads no las consideran adecuadas para su reunión, no a que no sepan que existen. Más descubrimiento no cambiaría el uso.
-3. [product] [viability] IT no sube a Max porque no puede ver qué valor concreto sacan *sus* Team Leads de las "capacidades avanzadas de reuniones". Si ese valor fuera visible por cuenta, la tasa de upgrade superaría el 2,4%.
-4. [product] [value] Los mandos medios aceptarían reemplazar parte de sus reuniones por alternativas asíncronas dentro de Teams (resúmenes, decisiones, seguimiento) si la herramienta las ofreciera — la queja "demasiadas reuniones" es una oportunidad de producto, no un problema cultural fuera de alcance.
-5. [product] [viability] La baja de plan por "pagamos por funciones que no usamos" se concentra en cuentas de menos de 100 licencias cuyo plan no coincide con su uso real — es un problema de ajuste de plan, no de producto.
+
+2. [opportunity: colaboracion-en-vivo-fuera-de-teams] [value] En las cuentas del segmento en foco (Business Premium, 100+ licencias, tecnología, 3+ países, facturación > USD 100M), la mayoría de los Team Leads que comparten un enlace externo en reuniones de más de 5 participantes lo hacen sobre un artefacto creado para esa reunión, y pierden 5 minutos o más por reunión en accesos y entradas fallidas. Se falsa si el artefacto mayormente preexiste y tiene vida propia fuera de la reunión, o si el costo de acceso resulta marginal.
+
+3. [product] [value] El bajo uso de Whiteboard (5%) y notas (8%) se debe a que los Team Leads no las consideran adecuadas para su reunión, no a que no sepan que existen. Más descubrimiento no cambiaría el uso.
+
+4. [product] [viability] IT no sube a Max porque no puede ver qué valor concreto sacan *sus* Team Leads de las "capacidades avanzadas de reuniones". Si ese valor fuera visible por cuenta, la tasa de upgrade superaría el 2,4%.
+
+5. [opportunity: colaboracion-en-vivo-fuera-de-teams] [viability] Resolver este problema mueve la tasa de upgrade a Max del segmento por encima del 3,1% actual. Se falsa si las cuentas del segmento con más uso de enlaces externos no suben de plan en mayor proporción que las que no los usan, o si IT declara que el freno es precio y no valor visible.
+
+6. [product] [value] Los mandos medios aceptarían reemplazar parte de sus reuniones por alternativas asíncronas dentro de Teams (resúmenes, decisiones, seguimiento) si la herramienta las ofreciera — la queja "demasiadas reuniones" es una oportunidad de producto, no un problema cultural fuera de alcance.
+
+7. [product] [viability] La baja de plan por "pagamos por funciones que no usamos" se concentra en cuentas de menos de 100 licencias cuyo plan no coincide con su uso real — es un problema de ajuste de plan, no de producto.
