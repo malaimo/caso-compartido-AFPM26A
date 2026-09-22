@@ -33,7 +33,7 @@ Ordenadas por impacto × incertidumbre; la primera es la próxima a atacar.
 
 4. [product] [viability] IT no sube a Max porque no puede ver qué valor concreto sacan *sus* Team Leads de las "capacidades avanzadas de reuniones". Si ese valor fuera visible por cuenta, la tasa de upgrade superaría el 2,4%.
 
-5. [opportunity: colaboracion-en-vivo-fuera-de-teams] [viability] Resolver este problema mueve la tasa de upgrade a Max del segmento por encima del 3,1% actual. Se falsa si las cuentas del segmento con más uso de enlaces externos no suben de plan en mayor proporción que las que no los usan, o si IT declara que el freno es precio y no valor visible.
+5. [opportunity: colaboracion-en-vivo-fuera-de-teams] [viability] Resolver este problema mueve la tasa de upgrade a Max del segmento por encima del 3,1% actual. Se falsa si las cuentas del segmento con más uso de enlaces externos no suben de plan en mayor proporción que las que no los usan, o si IT declara que el freno es precio y no valor visible. — weakened by [product/research/2026-09-15-2126-colaboracion-en-vivo-fuera-de-teams.md] (2026-09-16)
 
 6. [product] [value] Los mandos medios aceptarían reemplazar parte de sus reuniones por alternativas asíncronas dentro de Teams (resúmenes, decisiones, seguimiento) si la herramienta las ofreciera — la queja "demasiadas reuniones" es una oportunidad de producto, no un problema cultural fuera de alcance.
 
