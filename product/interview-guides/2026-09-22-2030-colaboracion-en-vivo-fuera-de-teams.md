@@ -31,42 +31,58 @@ status: draft
 - **No defender Teams** ni explicar funciones. Si el participante se queja, preguntar "¿qué pasó después?", no corregir.
 - **Anclar todo en una reunión concreta** y reciente. Si el participante generaliza ("normalmente..."), volver: "¿y en esa reunión en particular?".
 - **Señal Bruno:** si la razón de salir de Teams son los invitados externos, anotarlo y preguntar si lo mismo pasa en reuniones sin externos. Una explicación que solo vale con externos es señal de alarma, no evidencia (ver oportunidad, persona negativa).
+- **Otras herramientas de reunión:** si el participante menciona reuniones que hace en Slack, Meet u otra herramienta, anotarlo sin profundizar. Mudar la reunión entera fuera de Teams es otra línea ("el equipo ya usa otras herramientas") y esta guía no la cubre.
+- **Costo de acceso:** si aparecen los minutos perdidos en permisos o entradas, anotarlos sin profundizar (lo cuantifica la encuesta).
+- **No explicar funciones de Teams** aunque el participante pregunte si existen ("¿eso hay en Teams?"). Responder "cuéntame cómo lo resolvieron" y seguir.
 
 ## Calentamiento (3 min)
 
 W1. Cuéntame brevemente qué hace tu equipo y qué reuniones conduces en una semana típica.
-   - Probes: ¿Cuántas personas suelen estar? ¿Desde cuántos países? ¿Suele haber gente de fuera de la empresa?
-   > Confirma perfil (conduce reuniones de más de 5, equipo multipaís) y da contexto sobre externos sin plantear todavía el tema.
+   - Probes: ¿Cuántas personas suelen estar? ¿Desde cuántos países?
+   > Confirma perfil (conduce reuniones de más de 5, equipo multipaís). La presencia de externos ya está en la encuesta (Q8); no preguntarla acá.
 
 ## Cuerpo
 
-*Ancla para todo el cuerpo:* "Quiero que pensemos en una reunión concreta: la última de más de 5 personas que condujiste en la que el grupo trabajó junto sobre algo, por ejemplo un tablero, un documento, una lista o unos datos."
+*Ancla para todo el cuerpo:* "Quiero que pensemos en una reunión concreta: la última reunión de Teams de más de 5 personas que condujiste en la que el grupo trabajó junto sobre algo, por ejemplo un tablero, un documento, una lista o unos datos."
 
-> El ancla no menciona "fuera de Teams" a propósito: sirve igual para quien sale y para quien no sale, y deja que la herramienta aparezca en el relato.
+> El ancla dice "reunión de Teams" para que nadie elija una reunión hecha en Slack u otra herramienta, pero no menciona "fuera de Teams" a propósito: sirve igual para quien sale y para quien no sale, y deja que la herramienta aparezca en el relato.
+>
+> *Definición para quien entrevista:* "fuera de Teams" es cualquier trabajo sobre una herramienta que no es de Teams, se vea en pantalla compartida o por enlace. Compartir pantalla de Jira es "fuera" aunque ocurra en la llamada. No usar esta definición con el participante; sirve para clasificar lo que cuenta.
 
-### O1. Qué se hace afuera y por qué (9 min)
+### O1. Qué se hace afuera y por qué (11 min)
 
 **Creencia en riesgo:** los Team Leads sacan el trabajo colaborativo de Teams porque la colaboración nativa no cubre lo que necesitan hacer en vivo, no por hábito, por externos ni porque el artefacto ya viva afuera.
 **Estamos equivocados si** la razón que aparece en los relatos es "así se hace en el área", "el tablero ya estaba ahí", "lo pidió el cliente o el contratista", o si nunca probaron nada dentro de Teams y no saben qué hay (eso es desconocimiento, creencia 3, no falta de función).
 
 Q1. Llévame por esa reunión desde que empezó: ¿qué tenían que lograr y qué hizo el grupo, paso a paso?
    - ¿Dónde estaba eso sobre lo que trabajaban?
+   - ¿Cómo lo veía el resto: en tu pantalla compartida o cada uno lo abría por su lado?
    - ¿Qué hacía la gente ahí concretamente: escribir, mover cosas, votar, señalar algo?
    - ¿Quién tocaba y quién solo miraba? ¿Por qué?
-   - ¿Qué pasó con quienes no llegaron a participar?
+   - ¿Hubo alguien que casi no intervino? ¿Qué hacía mientras tanto?
 
 Q2. ¿Cómo terminaron usando [la herramienta que nombró] para esa parte?
+   > *Si el artefacto es el sistema de trabajo del equipo (Jira, Grafana, Confluence, un dashboard), no preguntar por qué se eligió: la respuesta es "ahí vive todo". Hacer solo el tercer probe y pasar a Q2b.*
    - ¿Quién la eligió y cuándo?
    - ¿Siempre se hace ahí o fue esa vez?
    - ¿Alguna vez intentaron hacer eso mismo de otra forma? ¿Qué pasó?
-   - Solo si no apareció antes: ¿esa parte se hizo alguna vez dentro de la propia llamada de Teams? ¿Cómo fue?
+   - Solo si no apareció antes: ¿alguna vez esa parte se hizo con algo de la propia reunión de Teams, sin abrir otra herramienta? ¿Cómo fue?
 
-*Variante para quien no sale (Q1 de la encuesta "En ninguna"):* Q2 → "Esa parte, ¿cómo la resolvieron sin salir de la llamada?" Probes: ¿qué funcionó?, ¿qué costó?, ¿alguna vez usaron otra herramienta y la dejaron? ¿por qué?
+Q2b. ¿Hay otra reunión tuya de más de 5 personas en la que el grupo trabaje de otra forma sobre algo compartido? Cuéntame la última.
+   - ¿Dónde estaba eso sobre lo que trabajaban?
+   - ¿Quién lo armó y para qué reunión?
+   - ¿Por qué ahí y no en otro lado?
+   - ¿Qué pasó la última vez que intentaron hacer eso de otra forma?
+   > Q2b existe porque el mismo Team Lead puede salir de Teams en una reunión y no en otra (refinamiento sobre Jira vs. retro o planning en un tablero armado para la sesión). Una sola reunión ancla no alcanza para ver el motivo.
 
-### O2. Vida del artefacto (7 min)
+*Variante si en ninguna de las dos reuniones se trabajó sobre algo fuera de la llamada:* Q2 → "Esa parte, ¿cómo la resolvieron sin salir de la llamada?" Probes: ¿qué funcionó?, ¿qué costó?, ¿alguna vez usaron otra herramienta y la dejaron? ¿por qué?
+
+### O2. Vida del artefacto (6 min)
 
 **Creencia en riesgo:** el artefacto externo se crea para esa reunión (y por eso el problema es colaborar en vivo).
 **Estamos equivocados si** el tablero o documento ya existía, lo usan otras personas fuera de la reunión y sigue vivo después (Jira, Confluence, dashboards). En ese caso el problema es de integración, no de colaboración en vivo.
+
+*Qué artefacto:* Q3 y Q4 van sobre el artefacto creado para la reunión, si apareció en Q2 o Q2b. Si no hubo ninguno, sobre el que el grupo editó. Si nadie editó nada, sobre el principal que se compartió. Nombrarlo al preguntar ("ese Miro", "ese doc").
 
 Q3. Ese tablero o documento, ¿de dónde salió? Cuéntame qué pasó con él antes de la reunión.
    - ¿Quién lo armó, cuándo y cuánto le llevó?
@@ -74,26 +90,28 @@ Q3. Ese tablero o documento, ¿de dónde salió? Cuéntame qué pasó con él an
    - ¿Quién más lo usa fuera de estas reuniones?
 
 Q4. ¿Y después de la reunión? ¿Cuándo fue la última vez que alguien lo abrió, y para qué?
-   - ¿Se copió algo de ahí a otro lugar? ¿Quién lo hizo?
    - ¿Dónde está hoy?
-   - En tus otras reuniones grandes, ¿lo que se comparte funciona igual o distinto?
+   > Lo que se copia a otro lugar (Jira, actas, hilos) se pregunta en Q6, no acá.
 
-### O3. Cómo se llega a la decisión y dónde queda (8 min)
+### O3. Cómo se llega a la decisión y dónde queda (7 min)
 
 **Creencia en riesgo:** lo que más le cuesta al Team Lead es que el grupo converja a una decisión y que esa decisión quede registrada y se cumpla, y hoy eso ocurre fuera de Teams.
 **Estamos equivocados si** las decisiones salen sin fricción y quedan registradas donde trabaja el equipo sin trabajo manual del Team Lead, o si no recuerda ninguna decisión perdida o mal ejecutada en los últimos meses. En ese caso, la facilitación y la captura de decisiones no son la palanca.
 
-Q5. En esa reunión, ¿qué se decidió y cómo llegaron a eso?
-   - ¿Cómo se eligió: votación, lo decidió alguien, consenso?
+Q5. En esa reunión, ¿qué se decidió?
+   - ¿Cómo llegaron a eso?
+   - ¿Quién terminó decidiendo, y en qué momento quedó decidido?
    - ¿Hubo un momento en que se trabó? ¿Qué hiciste para destrabarlo?
-   - ¿Participaron todos por igual? ¿Quién no?
+   - Cuando algo no se cierra en la reunión, ¿qué pasa con eso después? ¿Cuándo se terminó decidiendo?
 
-Q6. Una vez decidido, ¿qué hiciste tú para que eso quedara registrado y se cumpliera?
-   - ¿Dónde lo anotaste y cuánto te llevó?
+Q6. Una vez decidido, ¿qué pasó para que eso quedara registrado y se cumpliera? ¿Quién lo hizo y dónde quedó?
+   - ¿Qué parte te tocó a ti y cuánto te llevó?
+   - ¿Queda en algún otro lugar además de ese?
    - ¿Alguien se enteró tarde o entendió otra cosa?
-   - ¿Cuándo fue la última vez que una decisión se perdió o se ejecutó mal? ¿Qué pasó?
+   - Piensa en la última vez que algo que se decidió en una reunión terminó hecho distinto de lo acordado. ¿Qué pasó entre la reunión y eso?
+   > La pregunta no asume que el Team Lead registra la decisión (a veces lo hace alguien del equipo en un hilo) y el último probe habla del caso, no de su desempeño: preguntado como falla propia, la respuesta se vuelve defensiva.
 
-*Variante si en esa reunión no se decidió nada:* "Piensa en la última reunión grande en la que sí se tomó una decisión", y seguir con Q5.
+*Variante si en esa reunión no se decidió nada:* "Piensa en la última reunión grande de Teams en la que sí se tomó una decisión", y seguir con Q5.
 
 ## Cierre (3 min)
 
@@ -107,7 +125,7 @@ C3. Agradecer y explicar qué pasa con lo que compartió.
 | Objetivo | Preguntas | Decisión que alimenta |
 |---|---|---|
 | Perfil | W1 | Confirmar que el participante es del segmento |
-| O1 | Q1, Q2 | Qué actividad cubrir y por qué hoy sale |
+| O1 | Q1, Q2, Q2b | Qué actividad cubrir y por qué hoy sale |
 | O2 | Q3, Q4 | Colaboración en vivo o integración |
 | O3 | Q5, Q6 | Si la facilitación y la captura de decisiones son la palanca |
 | Reclutamiento | C1, C2 | Cobertura y próximos participantes |
@@ -135,3 +153,32 @@ Dentro de cada grupo: priorizar Q8 = "No" (reuniones sin externos), mezclar los 
 3. ¿En qué sector está tu empresa y en cuántos países tiene equipos? [Tecnología o software y 3 o más países / otra combinación] → **descalificar** si no es tecnología con 3 o más países.
 
 **Cuántas.** Entre 8 y 12 entrevistas de 30 minutos, del 28/10 al 11/11/2026 (la encuesta cierra el 24/10). Cortar antes si hay saturación: cuando tres entrevistas seguidas no traen una actividad, un motivo o un destino de la decisión nuevos. Corte de decisión de la oportunidad: 15/11/2026.
+
+## Pretest notes
+
+### 2026-09-22: dos corridas sintéticas (Carolina Restrepo y Joaquín Lemus)
+
+Prueba del diseño de la guía, no evidencia. Ambas corridas sobre la versión original, sin cambios entre una y otra.
+
+- **Carolina Restrepo** (servicios financieros; fuera del perfil por sector, sirve para estructura). Duró entre 36 y 40 min.
+- **Joaquín Lemus** (segmento en foco, usa Slack, contratistas externos en el planning). Duró entre 32 y 34 min.
+
+**Qué cambió:**
+- **Ancla restringida a reuniones de Teams**, más una definición de "fuera de Teams" para quien entrevista: compartir pantalla de una herramienta externa también cuenta como fuera. En las dos corridas la repregunta "¿se hizo dentro de la llamada de Teams?" confundió ("sí fue en Teams, compartí pantalla"). Joaquín preguntó si la reunión ancla podía ser un huddle de Slack.
+- **Nueva Q2b (segunda reunión) y la variante "no sale" pasa a depender de la reunión, no de la persona.** En las dos corridas el caso del artefacto creado para la reunión (la retro en Miro de Carolina, el planning en FigJam de Joaquín) apareció recién en la última repregunta de Q4, y nadie lo exploró. O1 pasa de 9 a 11 min.
+- **Nota en Q2 para artefactos que son el sistema de trabajo del equipo.** Con Grafana, las tres repreguntas de elección dieron respuestas de una línea ("es donde están las métricas").
+- **Nota sobre qué artefacto usar en Q3 y Q4.** En las dos corridas hubo dos artefactos ("¿cuál, el Jira o el doc?").
+- **Q6 reescrita:** ya no da por hecho que el Team Lead registra la decisión (Joaquín: "¿Yo? Directamente, nada"). El probe sobre decisiones perdidas habla del caso y no de la persona (Carolina respondió a la defensiva). Se agregó "¿queda en algún otro lugar?" (grabaciones, hilos).
+- **Q5 separada en qué y cómo.** Las opciones "votación, alguien, consenso" pasan a pregunta abierta (Joaquín: "ninguna de esas"). Se agregó un probe para lo que no se cierra ("lo seguimos por chat / en el hilo").
+- **Repeticiones eliminadas:** "¿se copió algo a otro lugar?" en Q4 (lo cubre Q6), "¿participaron todos por igual?" en Q5 (lo cubre Q1), "otras reuniones" en Q4 (lo cubre Q2b) y externos en W1 (lo cubre la encuesta, Q8). O2 pasa de 7 a 6 min y O3 de 8 a 7.
+- **La repregunta de Q1 sobre "quienes no llegaron a participar"** se reescribió porque daba algo por hecho (Carolina entendió "los que no llegaron").
+- **Tres reglas nuevas:** otras herramientas de reunión, costo de acceso y no explicar funciones de Teams. Se anotan, no se profundizan.
+
+**Qué quedó igual a propósito:**
+- La repregunta de Q1 "señalar algo": sacó el dolor de no poder señalar en pantalla compartida sin inducirlo.
+- La regla "señal Bruno": separó el problema de externos (FigJam) del día a día.
+- Q3 y Q4: produjeron exactamente lo que la guía dice que la invalida (artefacto que ya existía y tiene vida propia).
+- La regla de no nombrar primero Loop o Whiteboard.
+- La migración de reuniones completas a Slack no se agrega como pregunta: no cabe en 30 min y es otra línea. Queda como nota.
+
+**Pendiente:** volver a probar la versión revisada (sugerido: Bruno, para ver si el screener y la señal Bruno lo detectan, o Carolina para confirmar que Q2b funciona). Una persona sintética no mide si la redacción se entiende ni si la gente real se abre.
