@@ -1,10 +1,14 @@
 ---
-status: framed
+status: discarded
 segment: Team Leads y mandos medios que conducen reuniones de más de 5 participantes en cuentas Business Premium de 100+ licencias, sector tecnología, operación en 3+ países, facturación > USD 100M (12.400 cuentas, 2,1M licencias)
 personas: carolina-restrepo (parcial), joaquin-lemus (segmento en foco, escéptico), rosa-elena-cabrera (afectada), damian-sosa (comprador)
 ---
 
 # Opportunity: La colaboración en vivo de las reuniones grandes se hace fuera de Teams
+
+## Por qué se descartó (29/09/2026)
+
+Su creencia [value] quedó contradicha: el artefacto mayormente ya existía (53% contra 40%, encuesta n=182) y el costo de 5 minutos o más solo aparece con externos (62%), que es la señal de Bruno. Con SSO entrar lleva alrededor de 1 minuto (entrevistas, n=10). El dolor real no era entrar a la herramienta externa sino converger y cerrar la decisión. Se reencuadró en dos oportunidades: `product/opportunities/2026-09-29-2050-decisiones-sin-cierre-en-reuniones.md` y `product/opportunities/2026-09-29-2050-convergencia-trabada-en-reuniones.md`. Queda sin encuadrar la necesidad de señalar sobre artefactos que ya existen (4 de 10 entrevistas: pantalla compartida donde nadie puede apuntar, una sola persona edita); candidata a una oportunidad aparte.
 
 En las reuniones de más de 5 participantes de las cuentas de tecnología multinacionales, los Team Leads sacan el trabajo colaborativo fuera de Teams hacia tableros y documentos de terceros, y pagan por eso minutos de reunión, participantes que quedan afuera y una decisión que Teams nunca ve. Importa ahora porque ese mismo segmento convierte a Max por encima del promedio (3,1% contra 2,4%) y la conversación de upgrade se juega en "capacidades avanzadas de reuniones" que hoy nadie puede nombrar.
 
