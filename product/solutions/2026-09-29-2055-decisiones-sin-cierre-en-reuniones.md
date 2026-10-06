@@ -2,6 +2,7 @@
 opportunity: decisiones-sin-cierre-en-reuniones
 status: testing-several
 chosen: cierre-confirmado-en-vivo, recap-de-decisiones
+tests: product/tests/2026-10-06-1914-decisiones-sin-cierre-en-reuniones.md
 ---
 
 # Solutions for: Las decisiones de las reuniones grandes no se cierran
@@ -37,11 +38,13 @@ Sin software nuevo: una práctica recomendada en la que los últimos 5 minutos s
 | Alternative | Desirable | Feasible | Viable | Riskiest belief |
 |---|---|---|---|---|
 | A1 `recap-de-decisiones` | mixed (real, n=10: 6 de 10 usan o probaron el recap y ninguno lo usa como registro; survey, n=182: 26 "Otro" sobre el recap. No resuelve el dueño ambiguo sin confirmación) | to check with tech (parte de un recap que ya existe en el plan superior; distinguir propuesta de decisión no está probado) | mixed (secondary: el mercado cobra la IA, pero su ROI cuesta demostrarse; el recap ya está arriba y el segmento sube solo 3,1%, así que tiene que ser visiblemente distinto) | La IA separa decisión de propuesta y asigna responsable con precisión suficiente. Se falsa si, sobre grabaciones reales, más de 1 de cada 5 decisiones extraídas es incorrecta o falta, o si la revisión del líder lleva más de 5 minutos |
-| A2 `cierre-confirmado-en-vivo` | strong (real, n=10: ataca los tres modos de falla, dueño ambiguo en 3 casos, registro tardío o escondido en 4, y lo que no llega a quien no habló; synthetic: Rosa Elena como receptora) | to check with tech (cabe entera en la restricción de tiempo real del brief; podría apoyarse en las notas de reunión existentes) | mixed (secondary: una lista sola se parece a la cocreación que el mercado regala; gana valor de plan superior si la IA la redacta, assumption) | Los grupos reservan y usan 2 a 3 minutos al final para confirmar. Se falsa si en la mayoría de las reuniones el cierre se saltea por tiempo (real: reuniones que se alargan y priorizaciones que se traban son evidencia en contra) |
+| A2 `cierre-confirmado-en-vivo` | mixed, pain evidenced, relief not tested (real, n=10: ataca los tres modos de falla, dueño ambiguo en 3 casos, registro tardío o escondido en 4, y lo que no llega a quien no habló; synthetic: Rosa Elena como receptora) | to check with tech (cabe entera en la restricción de tiempo real del brief; podría apoyarse en las notas de reunión existentes) | mixed (secondary: una lista sola se parece a la cocreación que el mercado regala; gana valor de plan superior si la IA la redacta, assumption) | Los grupos reservan y usan 2 a 3 minutos al final para confirmar. Se falsa si en la mayoría de las reuniones el cierre se saltea por tiempo (real: reuniones que se alargan y priorizaciones que se traban son evidencia en contra) |
 | A3 `publicar-decisiones` | mixed (real, n=10: elimina el copiado y el registro escondido en 4 de 10, no el dueño ambiguo ni el registro incorrecto; synthetic: Joaquín abandonó Loop por no sincronizar con Confluence) | to check with tech (depende de Jira y Confluence de terceros y de la aprobación del admin, secondary) | weak (secondary: integrar no es lo que se cobra; las herramientas externas ya integran) | Los líderes escriben la decisión en Teams y no directamente en Jira. Se falsa si en un piloto siguen escribiendo en la herramienta de destino |
 | A4 `ritual-de-cierre` | mixed (real, n=10: ataca el dueño ambiguo sin costo, no el traspaso a Jira; los que dicen "es disciplina" describen fallas que la disciplina no evitó) | strong (real: las notas de reunión existen, 8% de uso en telemetría; survey, n=210: 31% no sabe que existen. Límites: se pierden si la serie se recrea, excluyen a externos, secondary) | weak (assumption: no hay nada que vender en Max) | Los líderes sostienen el ritual sin apoyo de la herramienta. Se falsa si en un piloto con 10 líderes menos de la mitad lo sigue haciendo al mes |
 
 Ninguna columna sale toda en `strong`; la única celda `strong` de valor (A2) se revisó y se apoya en la misma evidencia real que las demás, cubriendo más modos de falla.
+
+Revisión 06/10/2026: la celda Desirable de A2 baja de `strong` a `mixed` (pain evidenced, relief not tested). Se apoyaba solo en evidencia del problema; nadie reaccionó todavía a un cierre confirmado en vivo.
 
 ## Decision
 
@@ -49,10 +52,7 @@ Recomendación del agente: probar A2 y A1 en paralelo. A2 es la que mejor alivia
 
 Decisión del usuario (29/09/2026): la misma, `testing-several` con A2 y A1.
 
-Pruebas:
-
-- **A2, piloto manual (resuelve la creencia de uso y la de valor de A2):** 8 a 10 líderes del pool de opt-in de la encuesta durante 4 semanas. Usan A4 como prueba manual de A2: la lista de decisión, responsable, fecha y motivo va en las notas de reunión existentes y cada responsable confirma lo suyo antes de cortar. Se mide en cuántas reuniones el cierre se hizo o se salteó, y las decisiones mal ejecutadas y los minutos de trabajo posterior contra el mes anterior.
-- **A1, prueba de precisión (resuelve la creencia de factibilidad de A1):** extracción de decisiones sobre grabaciones reales ya existentes de reuniones de los mismos líderes, comparada con lo que el líder registró. Se mide cuántas decisiones salen incorrectas o faltan, cuántas propuestas quedan marcadas como decisiones, y los minutos que lleva la revisión.
+Pruebas: diseñadas en `product/tests/2026-10-06-1914-decisiones-sin-cierre-en-reuniones.md` (T1 para A2, creencia 12; T2 para A1, creencia 14). El piloto de 4 semanas de A2 queda como paso siguiente de T1 si pasa.
 
 Qué cambiaría la decisión: si el piloto muestra que el cierre se saltea por tiempo, queda A1 sola; si la precisión de A1 no alcanza, queda A2 con lista manual y la viabilidad se cae; si las entrevistas con IT dicen que el freno es precio, ninguna sirve al upgrade y la oportunidad se mueve a retención.
 
