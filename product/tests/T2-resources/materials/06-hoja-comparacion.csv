@@ -1,0 +1,2 @@
+reunion,modelo,version,temperatura,clave_id,tipo_clave,ia_id,decision_ia,responsable_ia,fecha_ia,resultado,motivo_del_resultado,comparado_por,notas
+R01,,,0,K01,decision|compromiso|no-decision,I01,,,,correcta|incorrecta-contenido|incorrecta-responsable|incorrecta-fecha|faltante|propuesta-como-decision|extra,,,
