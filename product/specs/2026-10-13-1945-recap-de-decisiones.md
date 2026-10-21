@@ -107,6 +107,8 @@ Tested in: product/tests/2026-10-06-1914-decisiones-sin-cierre-en-reuniones.md
 - La spec mantiene lo que T2 va a medir: extracción desde la transcripción, salida fija de decisión, responsable, fecha y motivo, revisión del líder antes de publicar. Deja afuera, igual que T2, el contexto de pantalla o apps compartidas (votos en el tablero, filtros de un dashboard); se agrega después si T2 pasa.
 - Revisión 13/10/2026 (panel de crítica): la extracción suma dos salidas, el código de ticket dicho en voz alta y la marca "falta contexto de pantalla". T2 no se corrió, así que ningún resultado se invalida, pero el prompt y la hoja de comparación de T2 tienen que incluir estas dos salidas para que la prueba cubra esta versión. La marca no agrega contexto de pantalla: solo avisa que falta.
 
+Medido en: product/metrics/2026-10-20-1952-recap-de-decisiones.md
+
 ## Assumptions
 
 Referenciadas de `product/overview.md`:
